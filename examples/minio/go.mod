@@ -1,4 +1,4 @@
-module github.com/minio/minio-go/examples/minio
+module github.com/Taoidle/minio-go/examples/minio
 
 go 1.22
 

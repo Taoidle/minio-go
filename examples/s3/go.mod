@@ -1,4 +1,4 @@
-module github.com/minio/minio-go/examples/s3
+module github.com/Taoidle/minio-go/examples/s3
 
 go 1.22
 
