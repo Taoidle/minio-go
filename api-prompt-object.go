@@ -23,8 +23,8 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/Taoidle/minio-go/v7/pkg/s3utils"
 	"github.com/goccy/go-json"
-	"github.com/minio/minio-go/v7/pkg/s3utils"
 )
 
 // PromptObject performs language model inference with the prompt and referenced object as context.

@@ -5,7 +5,7 @@ go 1.22
 toolchain go1.22.7
 
 // Overridden by `replace` below, to point all versions at the local minio-go source, so version shouldn't matter here.
-require github.com/minio/minio-go/v7 v7.0.73
+require github.com/Taoidle/minio-go/v7 v7.0.73
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -25,4 +25,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/minio/minio-go/v7 => ../..
+replace github.com/Taoidle/minio-go/v7 => ../..

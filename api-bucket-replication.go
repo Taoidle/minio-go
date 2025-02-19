@@ -27,9 +27,9 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/Taoidle/minio-go/v7/pkg/replication"
+	"github.com/Taoidle/minio-go/v7/pkg/s3utils"
 	"github.com/google/uuid"
-	"github.com/minio/minio-go/v7/pkg/replication"
-	"github.com/minio/minio-go/v7/pkg/s3utils"
 )
 
 // RemoveBucketReplication removes a replication config on an existing bucket.
