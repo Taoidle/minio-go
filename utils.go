@@ -473,6 +473,8 @@ var supportedHeaders = map[string]bool{
 	"x-amz-object-lock-retain-until-date": true,
 	"expires":                             true,
 	"x-amz-replication-status":            true,
+	"x-cos-storage-class":                 true,
+	"x-oss-storage-class":                 true,
 	// Add more supported headers here.
 	// Must be lower case.
 }
